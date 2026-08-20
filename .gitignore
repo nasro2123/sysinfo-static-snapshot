@@ -1,0 +1,21 @@
+# Local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs and temporary downloads
+*.log
+*.tmp
+*.part
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Python cache
+__pycache__/
+*.py[cod]
