@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SysInfo Digital Products</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, sans-serif;
+            background-color: #0f0a1f;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            padding: 2rem;
+            text-align: center;
+            background: linear-gradient(180deg, rgba(140,2,238,0.2) 0%, transparent 100%);
+        }
+        h1 {
+            color: #d8b7f4;
+            font-size: 3rem;
+            margin-bottom: 0.5rem;
+        }
+        p.subtitle {
+            color: #a77bc7;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+        }
+        main {
+            flex: 1;
+            padding: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background-color: #1a112e;
+            border: 1px solid #3d2066;
+            border-radius: 12px;
+            padding: 2rem;
+            text-align: center;
+            transition: transform 0.2s, border-color 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            border-color: #b337ff;
+        }
+        .card h2 {
+            color: #fff;
+            margin-top: 0;
+        }
+        .card p {
+            color: #a77bc7;
+            line-height: 1.5;
+        }
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+            border-top: 1px solid #2a1b40;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SysInfo</h1>
+        <p class="subtitle">Premium Digital Solutions & Services</p>
+    </header>
+    <main>
+        <div class="grid">
+            <div class="card">
+                <h2>Digital Accounts</h2>
+                <p>Secure, verified, and ready-to-use digital accounts for various platforms and services.</p>
+            </div>
+            <div class="card">
+                <h2>Serial Keys</h2>
+                <p>Instant delivery of authentic license keys and activation codes for premium software.</p>
+            </div>
+            <div class="card">
+                <h2>Bundle Orders</h2>
+                <p>Cost-effective packages combining our most popular digital products into single purchases.</p>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2026 SysInfo Digital Products. All rights reserved.</p>
+    </footer>
+</body>
+</html>
