@@ -1,31 +1,31 @@
 # SysInfo — Static Public Snapshot
 
-هذه نسخة ثابتة من الواجهة العامة لموقع SysInfo، أُعدّت من الصفحات والموارد المتاحة للعامة على النطاق `sys-info.xyz` بناءً على تفويض مالك الموقع.
+This is a static snapshot of the public frontend for the SysInfo website. It was generated from the publicly accessible pages and resources on the `sys-info.xyz` domain, as authorized by the site owner.
 
-## ما تتضمنه النسخة
+## What's Included
 
-تتضمن الحزمة صفحات HTML العامة، وملفات CSS وJavaScript العامة، والصور المحلية التي أمكن تنزيلها من الموقع، مع الحفاظ على المظهر العام والتنقل الأساسي بين الصفحات.
+This repository contains public HTML pages, CSS, JavaScript, and local image assets downloaded from the site. It preserves the overall layout and basic navigation between pages.
 
-## التشغيل محليًا
+## Running Locally
 
-يمكن تشغيل النسخة باستخدام أي خادم ملفات ثابت، مثل:
+You can run this snapshot using any static file server. For example, using Python:
 
 ```bash
 python3 -m http.server 8080
 ```
 
-ثم افتح `http://localhost:8080/` في المتصفح.
+Then open `http://localhost:8080/` in your browser.
 
-## ملاحظات مهمة
+## Important Notes
 
-هذه ليست نسخة من الخادم الخلفي الأصلي. لذلك فإن تسجيل الدخول عبر Discord، والدفع، والسلة الديناميكية، والتحقق من حالة المنتجات، وأي طلبات تعتمد على جلسات أو واجهات API لن تعمل إلا بعد ربطها بخادم خلفي تملكه وتديره بشكل مستقل.
+This is **not** a copy of the original backend server. Features such as Discord login, checkout, dynamic shopping cart, product status checks, and any requests relying on sessions or backend APIs will not work unless connected to an independently managed backend.
 
-تم حذف رموز CSRF وبيانات الجلسات من ملفات HTML قبل النشر. كما لم يتم تضمين أي مفاتيح API أو كلمات مرور أو بيانات اعتماد.
+CSRF tokens and session data have been removed from the HTML files prior to publishing. No API keys, passwords, or credentials are included.
 
-بعض الروابط الخاصة بالمنتجات أو الموارد الخارجية قد تحتاج إلى تهيئة إضافية إذا تم نشر المشروع تحت مسار فرعي في GitHub Pages.
+Some external product links or resources may require additional configuration if deployed under a subpath on GitHub Pages.
 
-## المصدر
+## Source
 
-المصدر المرئي للواجهة: <https://sys-info.xyz/>.
+Original visual source: <https://sys-info.xyz/>.
 
-هذا المستودع يمثل لقطة ثابتة قابلة للنشر، وليس نسخة احتياطية كاملة من تطبيق الخادم أو قاعدة البيانات.
+This repository serves as a deployable static snapshot, not a complete backup of the server application or database.
